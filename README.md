@@ -11,6 +11,6 @@ Terminology mapping between Rx and Coroutines.
 | subscribe                  | collect            |
 | onNext                     | offer              |
 | onError                    | catch              |
-| Single<T>                  | suspend () -> T    |
-| Maybe<T>                   | suspend () -> T?   |
+| Single\<T\>                | suspend () -> T    |
+| Maybe\<T\>                 | suspend () -> T?   |
 | Completable                | suspend () -> unit |
