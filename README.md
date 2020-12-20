@@ -6,6 +6,7 @@ Terminology mapping between Rx and Coroutines.
 | Single/Completable/Maybe   | suspend function   |
 | Observable/Flowable        | Flow               |
 | Subject                    | Channel            |
+| PublishSubject             | SendChannel        |
 | Schedulers                 | Dispatchers        |
 | Disposables                | Scopes             |
 | subscribe                  | collect            |
