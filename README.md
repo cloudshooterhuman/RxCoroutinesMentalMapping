@@ -15,3 +15,4 @@ Terminology mapping between Rx and Coroutines.
 | Single\<T\>                | suspend () -> T    |
 | Maybe\<T\>                 | suspend () -> T?   |
 | Completable                | suspend () -> unit |
+| Callback*                  | StateFlow          |
