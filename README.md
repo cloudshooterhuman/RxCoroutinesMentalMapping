@@ -10,7 +10,7 @@ Terminology mapping between Rx and Coroutines.
 | Schedulers                 | Dispatchers        |
 | Disposables                | Scopes             |
 | subscribe                  | collect            |
-| onNext                     | offer              |
+| onNext                     | offer / onEach     |
 | onError                    | catch              |
 | Single\<T\>                | suspend () -> T    |
 | Maybe\<T\>                 | suspend () -> T?   |
