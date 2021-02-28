@@ -7,7 +7,7 @@ Terminology mapping between Rx and Coroutines.
 | Observable/Flowable        | Flow               |
 | Subject                    | Channel            |
 | PublishSubject             | SendChannel        |
-| Schedulers                 | Dispatchers        |
+| Schedulers                 | Dispatchers        | 
 | Disposables                | Scopes             |
 | subscribe                  | collect            |
 | onNext                     | offer / onEach     |
@@ -19,4 +19,6 @@ Terminology mapping between Rx and Coroutines.
 
 
 
-StateFlow use *distinctUntilChangeed* by default
+- StateFlow use *distinctUntilChangeed* by default
+
+- Coroutines Disparchers = RxJava Scheduler (+ Exception Handler + parent context/job) 
