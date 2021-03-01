@@ -16,7 +16,7 @@ Terminology mapping between Rx and Coroutines.
 | Maybe\<T\>                 | suspend () -> T?   |
 | Completable                | suspend () -> unit |
 | Callback*                  | StateFlow          |
-
+| Handler                    | Actor              |
 
 
 - StateFlow use *distinctUntilChangeed* by default
