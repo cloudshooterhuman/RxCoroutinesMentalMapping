@@ -7,6 +7,7 @@ Terminology mapping between Rx and Coroutines.
 | Observable/Flowable        | Flow               |
 | Subject/BlockingQueue      | Channel            |
 | PublishSubject             | SendChannel        |
+| BehaviorSubject            | StateFlow          |
 | Schedulers                 | Dispatchers        | 
 | Disposables                | Scopes             |
 | subscribe                  | collect            |
