@@ -1,7 +1,7 @@
 # RxCoroutinesTerminology
 Terminology mapping between Rx and Coroutines.
 
-| Rx/Java                    | Coroutines         |
+| RxJava                     | Coroutines         |
 | -------------------------- |:------------------:|
 | Single/Completable/Maybe   | suspend function   |
 | Observable/Flowable        | Flow               |
