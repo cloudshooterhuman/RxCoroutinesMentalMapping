@@ -18,6 +18,7 @@ Terminology mapping between Rx and Coroutines.
 | Completable                | suspend () -> unit |
 | Callback*                  | StateFlow          |
 | Handler                    | Actor              |
+|                            | emit (flow)        |
 
 
 - StateFlow use *distinctUntilChangeed* by default
