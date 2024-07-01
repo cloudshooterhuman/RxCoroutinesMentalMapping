@@ -9,7 +9,7 @@ Terminology mapping between Rx and Coroutines.
 | PublishSubject             | SendChannel        |
 | BehaviorSubject            | StateFlow          |
 | Schedulers                 | Dispatchers        | 
-| Disposables                | Scopes             |
+| Disposables                | Scopes/Job         |
 | subscribe                  | collect            |
 | onNext                     | offer / onEach     |
 | onError                    | catch              |
