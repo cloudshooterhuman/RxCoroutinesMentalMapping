@@ -11,7 +11,9 @@ Terminology mapping between Rx and Coroutines.
 | Schedulers                 | Dispatchers        | 
 | Disposables                | Scopes/Job         |
 | subscribe                  | collect            |
-| onNext                     | offer / onEach     |
+| subscribeOn                | flowOn             | 
+| observeOn                  | collector’s context|  
+| onNext                     | offer/onEach/emit  |
 | onError                    | catch              |
 | Single\<T\>                | suspend () -> T    |
 | Maybe\<T\>                 | suspend () -> T?   |
@@ -24,3 +26,8 @@ Terminology mapping between Rx and Coroutines.
 - StateFlow use *distinctUntilChangeed* by default
 
 - Coroutines Disparchers = RxJava Scheduler (+ Exception Handler + parent context/job) 
+
+
+Ref:
+- https://medium.com/@elizarov/execution-context-of-kotlin-flows-b8c151c9309b
+- https://elizarov.medium.com/reactive-streams-and-kotlin-flows-bfd12772cda4
