@@ -11,6 +11,7 @@ Terminology mapping between Rx and Coroutines.
 | Schedulers                 | Dispatchers        | 
 | Disposables                | Scopes/Job         |
 | subscribe                  | collect            |
+| Observable.toSingle()      | Flow.collect       |
 | subscribeOn                | flowOn             | 
 | observeOn                  | collector’s context|  
 | onNext                     | offer/onEach/emit  |
