@@ -1,5 +1,5 @@
 # RxCoroutinesTerminology
-Terminology mapping between Rx and Coroutines.
+Mental Mapping between Rx and Coroutines.
 
 | RxJava                     | Coroutines         |
 | -------------------------- |:------------------:|
