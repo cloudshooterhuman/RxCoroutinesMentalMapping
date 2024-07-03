@@ -11,7 +11,7 @@ Mental Mapping between Rx and Coroutines.
 | Schedulers                 | Dispatchers        | 
 | Disposables                | Scopes/Job         |
 | subscribe                  | collect            |
-| Observable.toSingle()      | Flow.collect       |
+| Observable.toSingle()      | Flow.first()       |
 | subscribeOn                | flowOn             | 
 | observeOn                  | collector’s context|  
 | onNext                     | offer/onEach/emit  |
